@@ -5,17 +5,17 @@ mkdir tora
 cd tora
 
 # Langkah 2: Masukkan Private Key
-echo "Masukkan private key untuk transaksi aplikasi:"
+echo "Masukkan private key:"
 read PRIV_KEY
 
 # Langkah 3: Buat File .env
-echo "Masukkan nilai untuk MAINNET_WSS:"
+echo "Masukkan URL ETH MAINNET_WSS:"
 read MAINNET_WSS
-echo "Masukkan nilai untuk MAINNET_HTTP:"
+echo "Masukkan URL MAINNET_HTTP:"
 read MAINNET_HTTP
-echo "Masukkan nilai untuk SEPOLIA_WSS:"
+echo "Masukkan URL SEPOLIA_WSS:"
 read SEPOLIA_WSS
-echo "Masukkan nilai untuk SEPOLIA_HTTP:"
+echo "Masukkan URL SEPOLIA_HTTP:"
 read SEPOLIA_HTTP
 
 cat <<EOL > .env
