@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source path/to/functions.sh
+source path/to/logo.sh
 show_logo
 cd $HOME
 rm -rf executor
