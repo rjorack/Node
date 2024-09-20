@@ -1,4 +1,6 @@
 #!/bin/bash
+
+function show_logo() {
 echo -e "\e[1;35m
 
 /* ################################# */
@@ -15,3 +17,4 @@ echo -e "\033[48;30;37m    ++WILL++    \e[0m"
 echo -e "\e[0;37mHanya konsumsi pribadi\e[0m"
 echo -e "\e[0m"
 echo -e ""
+}
