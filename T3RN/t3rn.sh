@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source path/to/logo.sh
-show_logo
 cd $HOME
 rm -rf executor
 sudo apt -q update && sudo apt -qy upgrade
